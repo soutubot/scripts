@@ -1,3 +1,7 @@
+# 修改说明
+修改来自 https://github.com/yeziyezi/scripts 大佬的脚本
+修复了去复下载问题
+
 # Scripts
 一些实用小脚本的集合，不定期更新～
 ### 下载telegram频道中的图片
