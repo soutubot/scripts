@@ -18,7 +18,7 @@ proxy = ("socks5", "localhost", 12345)  # 不需要代理的话删掉该行
 picture_storage_path = "picture_storage_path" #下载目录
 
 # 获取已经下载文件ID
-dir_name = './picture_storage_path/' #如果报错请在脚本存放里新建'picture_storage_path'文件夹
+dir_name = 'picture_storage_path/' #如果报错请在脚本存放里新建'picture_storage_path'文件夹
 file_list = os.listdir(dir_name)
 file_list_id = [int(i.replace('.jpg', '')) for i in file_list ]
 print(f'已下载的图片id{file_list_id}')
