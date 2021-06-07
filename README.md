@@ -3,6 +3,7 @@
 
 修复了去复下载问题
 
+
 # Scripts
 一些实用小脚本的集合，不定期更新～
 ### 下载telegram频道中的图片
@@ -17,6 +18,7 @@
 3.  运行
 - 注意事项：首次运行脚本需要输入tg所绑定的手机号和验证码，然后telethon才能以你的身份登录去下载图片
 - 其他说明：[关于Telethon的文档在这里](https://telethon.readthedocs.io/en/latest/index.html)
+4.  pip install cryptg telethon
 
 ### 删除指定文件夹下的重复文件
 - 链接：[delete-duplicate-files.rb](./delete-duplicate-files.rb)
